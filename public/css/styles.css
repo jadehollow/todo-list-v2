@@ -1,0 +1,139 @@
+body {
+  background-color: #e4e9fd;
+  background-image: -webkit-linear-gradient(65deg, #a683e3 50%, #e4e9fd 50%);
+  min-height: 1000px;
+  font-family: "Dosis", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.bottom-box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #a683e3;
+  text-align: center;
+}
+
+#new-list {
+  mix-blend-mode: multiply;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  text-decoration: line-through;
+  text-decoration-color: #a683e3;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+  filter: hue-rotate(50deg);
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #a683e3;
+  color: #fff;
+  font-size: 30px;
+  padding: 0 6px 7px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #a683e3;
+}
+
+input[name="newItem"]::placeholder {
+  color: gray;
+  opacity: 1;
+}
+
+input[name="newList"]::placeholder {
+  color: rgb(87, 86, 86);
+  opacity: 1;
+}
+
+.new-item {
+  color: rgb(88, 88, 88);
+}
+
+.list-input {
+  color: rgb(87, 86, 86);
+}
+
+footer {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-icon {
+  width: 20px;
+  padding-bottom: 4px;
+}
+
+.footer-link, .nav-link {
+  color: #a683e3;
+  font-weight: bold;
+  text-decoration: none;
+  mix-blend-mode: multiply;
+}
+
+.footer-link:hover, .nav-link:hover {
+  color: gray;
+}
+

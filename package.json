@@ -1,0 +1,20 @@
+{
+  "name": "todolist-v2",
+  "version": "2.0.0",
+  "description": "upgraded version of todo list",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Jade Hollow",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.3",
+    "nodemon": "^2.0.12"
+  }
+}
